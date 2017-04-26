@@ -1,0 +1,122 @@
+[
+  {
+    "id":"0",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":66,
+    "oldprice":73,
+    "picture":"img/3_a.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"1",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":65,
+    "oldprice":70,
+    "picture":"img/3_b.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"2",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":57,
+    "oldprice":60,
+    "picture":"img/3_c.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"3",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":49,
+    "oldprice":55,
+    "picture":"img/3_d.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"4",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":53,
+    "oldprice":64,
+    "picture":"img/3_f.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"5",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":48,
+    "oldprice":53,
+    "picture":"img/3_g.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"6",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":35,
+    "oldprice":40,
+    "picture":"img/3_h.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"7",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":50,
+    "oldprice":56,
+    "picture":"img/3_i.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"8",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":35,
+    "oldprice":39,
+    "picture":"img/3_j.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"9",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":37,
+    "oldprice":40,
+    "picture":"img/3_k.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"10",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":48,
+    "oldprice":52,
+    "picture":"img/3_l.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  },
+  {
+    "id":"11",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":55,
+    "oldprice":61,
+    "picture":"img/3_m.jpg",
+    "quantity":10,
+    "category":"Skirts"
+  }
+]

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+  <header>
+    <nav id="main-nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Shop</a></li>
+          <li class="drop-down"><a href="#">Catalog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a class="login" href="#">Log in</a></li>
+        </ul>
+    </nav>
+
+    <div class="search">
+      <input type="submit" value="&#xf002;" class="search-btn fa ib-m">
+      <div class="search-slide ib-m">
+        <input type="text" placeholder="Enter your search" class="ib-m">
+        <div class="search-close ib-m"><i class="fa fa-times"></i></div>
+      </div>
+    </div>
+
+    <div id="hamburger-menu"><a class="img-replace" href="#">Menu</a></div>
+    <div id="cart-trigger">
+      <a class="cart-link" href="#">
+        <span class="cart-text fa fa-shopping-cart"><span class="cart-quantity empty">0</span></span>
+      </a>
+    </div>
+
+    <div class="mega-menu fadeIn animated" id="mega_menu">
+      <!--<div class="mm-3column">
+          <span class="left-images">
+              <img  src="img/1_f.jpg">
+              <p><a href="#">Most Popular Styles </a></p>
+          </span>
+      </div>-->
+      <div id="close-menu"><a class="img-replace" href="#">Menu</a></div>
+      <div class="mm-3column">
+        <span class="categories-list">
+        <span class="link">Women's clothing</span>
+        <ul class="default submenu">
+            <li><a href="#">Jersey tops</a></li>
+            <li><a href="#">Skirts</a></li>
+            <li><a href="#">T-Shirts & Singlets</a></li>
+            <li><a href="#">Coats & Jackets</a></li>
+            <li><a href="#">Jumpers & Cardigans</a></li>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Shorts</a></li>
+          </ul>
+        </span>
+      </div>
+      <div class="mm-3column">
+        <span class="categories-list">
+        <span class="link">Men's clothing</span>
+        <ul class="default submenu">
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">Sweaters</a></li>
+            <li><a href="#">Jackets & Coats</a></li>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Shorts</a></li>
+            <li><a href="#">Pants</a></li>
+            <li><a href="#">Swim</a></li>
+        </ul>
+        </span>
+      </div>
+      <div class="mm-3column">
+        <span class="categories-list">
+        <span class="link">Children's clothing</span>
+        <ul class="default submenu">
+            <li><a href="#">Activewear</a></li>
+            <li><a href="#">Coats & Jackets</a></li>
+            <li><a href="#">Dresses</a></li>
+            <li><a href="#">Jeans</a></li>
+            <li><a href="#">Leggings & Pants</a></li>
+            <li><a href="#">Pajamas</a></li>
+            <li><a href="#">Shirts & Tees</a></li>
+        </ul>
+        </span>
+      </div>
+    </div>
+
+
+  <div class="log-in fadeIn animated" id="log-in">
+    <div id="close-login"><a class="img-replace" href="#">Menu</a></div>
+    <section class="form">
+      <article class="tab-content" id="login">
+        <ul class="tab-group">
+          <li class="tab-group-link active"  tabindex="1"><a href="#login">Log in</a></li>
+          <li class="tab-group-link"  tabindex="2"><a href="#signup">Registration</a></li>
+        </ul>
+        <h1>Welcome Back!</h1>
+        <form class="line" action="/" method="post">
+          <div class="field-wrap">
+            <label placeholder="Имя">E-mail<span class="req">*</span></label>
+            <input type="email" required autocomplete="off"/>
+          </div>
+          <div class="field-wrap">
+            <label>Password<span class="req">*</span></label>
+            <input type="password" required autocomplete="off"/>
+          </div>
+          <p class="forgot"><a href="#">Forgot password?</a></p>
+          <button class="form-button button-block">Log in</button>
+        </form>
+      </article>
+      <article class="tab-content" id="signup">
+        <ul class="tab-group">
+          <li class="tab-group-link"  tabindex="1"><a href="#login">Log in</a></li>
+          <li class="tab-group-link active"  tabindex="2"><a href="#signup">Registration</a></li>
+        </ul>
+        <h1>Registration</h1>
+        <form class="line" action="/" method="post">
+          <div class="top-row">
+            <div class="field-wrap">
+              <label>Surname<span class="req">*</span></label>
+              <input type="text" required autocomplete="off" />
+            </div>
+            <div class="field-wrap">
+              <label>Name<span class="req">*</span></label>
+              <input type="text" required autocomplete="off" />
+            </div>
+          </div>
+          <div class="field-wrap">
+            <label>E-mail<span class="req">*</span></label>
+            <input type="email" required autocomplete="off"/>
+          </div>
+          <div class="field-wrap">
+            <label>Password<span class="req">*</span></label>
+            <input type="password" required autocomplete="off"/>
+          </div>
+          <button type="submit" class="form-button button-block">Registration</button>
+        </form>
+      </article>
+    </section>
+  </div>
+
+  <div class="check fadeIn animated" id="check">
+    <div id="close-check"><a class="img-replace" href="#">Menu</a></div>
+    <p>Payment</p>
+    <div class="cart-total" id="pay-total">
+        <p>Total: <span class="finalTotal">$0.00</span></p>
+    </div>
+    <ul>
+      <li><input type="checkbox" name="b" value="1">Cash</li>
+      <li><input type="checkbox" name="b" value="2">Visa/MasterCard</li>
+    </ul>
+    <div class="delivery"><p>Delivery</p></div>
+    <ul>
+      <li><input type="checkbox" name="b" value="3">Pickup</li>
+      <li><input type="checkbox" name="b" value="4">Courier</li>
+    </ul>
+    <a class="btn" href="#">Confirm</a>
+  </div>
+
+  </header>
+
+  <main>
+      <ul id="gallery-items" class="container"></ul> <!-- cd-gallery-items -->
+  </main>
+
+  <div id="shadow-layer"></div>
+
+  <div id="cart">
+    <h2>Cart</h2>
+    <ul class="cart-items">
+    </ul> <!-- cart-items -->
+
+    <div class="cart-total">
+      <p>Subtotal <span class="subtotalTotal">$0.00</span></p>
+      <p>Tax <span class="taxes">$0.00</span></p>
+      <p>Shipping <span class="shipping">$0.00</span></p>
+      <p>Total <span class="finalTotal">$0.00</span></p>
+    </div> <!--cart-total -->
+
+    <a href="#" class="checkout-btn">Checkout</a>
+    <p class="error"></p>
+    <p class="go-to-cart"><a href="#">Go to cart page</a></p>
+  </div> <!-- cart -->
+
+  <span class='Top'><i class='fa fa-chevron-up'></i></span>
+
+  <script id="productTemplate" type="text/template">
+    <figure class="product">
+        <img />
+       <div class="button">
+        <div class="prices"></div>
+        <a class="addtocart">
+        <div class="add">Add to Cart</div>
+        <div class="added">Added!</div>
+        </a>
+    </div>
+    <figcaption>
+    <h3></h3>
+    <p></p>
+    <div class="price">
+      <s></s>
+    </div>
+  </figcaption>
+  <a href="#"><i class="add">&nbsp;</i></a>
+    </figure>
+  </script>
+
+  <script id='cartItem' type='text/template'>
+    <li class="cart-product">
+        <span><input class="qty" value="1"></span>
+        <div class="price"></div>
+        <a href="#" class="item-remove img-replace">Remove</a>
+        <code class="subtotal"></code>
+    </li>
+  </script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>

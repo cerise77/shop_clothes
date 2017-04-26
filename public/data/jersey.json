@@ -1,0 +1,122 @@
+[
+  {
+    "id":"0",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":18,
+    "oldprice":20,
+    "picture":"img/2_a.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"1",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":50,
+    "oldprice":60,
+    "picture":"img/2_b.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"2",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":40,
+    "oldprice":47,
+    "picture":"img/2_c.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"3",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":45,
+    "oldprice":50,
+    "picture":"img/2_d.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"4",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":30,
+    "oldprice":39,
+    "picture":"img/2_f.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"5",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":35,
+    "oldprice":41,
+    "picture":"img/2_g.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"6",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":33,
+    "oldprice":40,
+    "picture":"img/2_h.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"7",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":37,
+    "oldprice":40,
+    "picture":"img/2_i.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"8",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":51,
+    "oldprice":56,
+    "picture":"img/2_j.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"9",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":30,
+    "oldprice":35,
+    "picture":"img/2_k.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"10",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":30,
+    "oldprice":33,
+    "picture":"img/2_l.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  },
+  {
+    "id":"11",
+    "name":"Lorem ipsum",
+    "description":"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "price":33,
+    "oldprice":40,
+    "picture":"img/2_m.jpg",
+    "quantity":10,
+    "category":"Jersey"
+  }
+]
